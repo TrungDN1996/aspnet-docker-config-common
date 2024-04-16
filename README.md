@@ -11,6 +11,7 @@ $ dotnet dev-certs https --trust
 
 ### Step 3: Set variable environment in .env file
 
+```
 ASPNET_VERSION=
 SDK_VERSION=
 WORKDIR=
@@ -22,6 +23,7 @@ HTTPS_PORT=
 HTTP_PORT=
 HTTPS_ASPNET_PASSWORD=
 HTTPS_ASPNET_VOLUME_PATH=
+```
 
 ### Step 4: Run docker
 
